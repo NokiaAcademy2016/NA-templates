@@ -16,7 +16,7 @@ class container_wrapper
 	container_wrapper & operator = (container_wrapper&&) = default;
   std::size_t size() const
 	{ 
-		return _value();
+		return _value.size();
 	};
 	//container_wrapper<std::vector<T>>(){si=s;};
 	T _value;
